@@ -17,8 +17,47 @@
           <a class="navbar-brand" href="#">
       <img src="assets/imagen/APLogo-20-20 (1).png" alt="" width="21%" height="">
     </a>
-         
+    <ul class="list-group list-group-horizontal"> 
+      <li class="list-group-item"><i class="fa-brands fa-instagram fa-2xl"></i></li>
+      <li class="list-group-item"><i class="fa-brands fa-facebook fa-2xl"></i></li>
+      <li class="list-group-item"><i class="fa-brands fa-linkedin-in fa-2xl"></i></li>
+      <li class="list-group-item">
+        <!-- Trigger Button Modal -->
+        <i class="fa-solid fa-baby fa-2xl" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        </i>
+      </li>
+    </ul>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3 row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Correo</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control-plaintext" id="staticEmail" value="email@ejemplo.com">
+          </div>
         </div>
+        <div class="mb-3 row">
+          <label for="inputPassword" class="col-sm-2 col-form-label"> Clave </label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+
+        <button type="button" class="btn btn-primary">Iniciar Sesión </button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
       </nav>
     
 
