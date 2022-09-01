@@ -1,3 +1,13 @@
+body{
+    background-image: url(../imagen/ashe.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+} 
+section.about{
+    margin-top: 20rem;
+}
+
 .navbar.navbar-expand-lg.bg-secondary{
     background: rgb(12,17,237);
 /*background: -moz-linear-gradient(0deg, rgba(12,17,237,1) 20%, rgba(223,183,32,1) 40%, rgba(255,209,0,1) 60%, rgba(12,17,237,1) 80%);
@@ -9,7 +19,7 @@ i.fa-brands.fa-facebook.fa-2xl,
 i.fa-brands.fa-instagram.fa-2xl,
 i.fa-solid.fa-baby.fa-2xl,
 i.fa-brands.fa-linkedin-in.fa-2xl{
-    color: rgb(239, 214, 233);
+    color: rgb(255, 0, 144);
 }
 
 i.fa-brands.fa-facebook.fa-2xl:hover{
@@ -19,7 +29,7 @@ i.fa-brands.fa-instagram.fa-2xl:hover{
     color: rgb(7, 169, 23);
 }
 i.fa-brands.fa-linkedin-in.fa-2xl:hover{
-    color: rgb(115, 10, 212);
+    color: rgb(231, 108, 31);
 }
 i.fa-solid.fa-baby.fa-2xl:hover{
     color: rgb(255, 217, 0);
@@ -28,3 +38,4 @@ i.fa-solid.fa-baby.fa-2xl:hover{
     --bs-list-group-bg: transparent;
     --bs-list-group-border-color: transparent;
 }
+
