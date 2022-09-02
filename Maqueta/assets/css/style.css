@@ -1,4 +1,4 @@
-body{
+.for.real{
     background-image: url(../imagen/ashe.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0c11ed",endCo
 }
 i.fa-brands.fa-facebook.fa-2xl,
 i.fa-brands.fa-instagram.fa-2xl,
-i.fa-solid.fa-baby.fa-2xl,
+i.i.fa-light.fa-user-unlock,
 i.fa-brands.fa-linkedin-in.fa-2xl{
     color: rgb(255, 0, 144);
 }
@@ -31,7 +31,7 @@ i.fa-brands.fa-instagram.fa-2xl:hover{
 i.fa-brands.fa-linkedin-in.fa-2xl:hover{
     color: rgb(231, 108, 31);
 }
-i.fa-solid.fa-baby.fa-2xl:hover{
+i.fa-light.fa-user-unlock:hover{
     color: rgb(255, 217, 0);
 }
 .list-group{
