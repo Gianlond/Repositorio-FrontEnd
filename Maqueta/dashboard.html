@@ -10,7 +10,8 @@
 <script src="https://kit.fontawesome.com/14a169b406.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
+
+  <header>
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -20,7 +21,7 @@
       <li class="list-group-item"><i class="fa-brands fa-instagram fa-2xl"></i></li>
       <li class="list-group-item"><i class="fa-brands fa-facebook fa-2xl"></i></li>
       <li class="list-group-item"><i class="fa-brands fa-linkedin-in fa-2xl"></i></li>
-      <li class="list-group-item"><i class="fa-light fa-user-unlock fa-2xl" type="button"></i></li>
+      <li class="list-group-item"><i class="fa-solid fa-user fa-2xl" type="button"></i></li>
     </ul>
 
 <!-- Modal -->
@@ -54,16 +55,17 @@
 </div>
 </div>
       </nav>
-
-
+    </header>
+<body>
+    <section id="sobre-mi" class="about">
     <div class="container-fluid text-center">
         <div class="row">
             <!--sidebar-->
-          <div class="col-3">
+          <div class="col-2">
             <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action">A simple default list group item</a>
               
-                <a href="#" class="list-group-item list-group-item-action list-group-item-primary">A simple primary list group item</a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Datos Personales</a>
                 <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">A simple secondary list group item</a>
                 <a href="#" class="list-group-item list-group-item-action list-group-item-success">A simple success list group item</a>
                 <a href="#" class="list-group-item list-group-item-action list-group-item-danger">A simple danger list group item</a>
@@ -74,12 +76,25 @@
               </div>
           </div>
           <!--Body-->
-          <div class="col-9">
-            Column
-          </div>
+        <div class="col-9">
+            <h4>DATOS PERSONALES</h4>
+              <div class="mb-3">
+              <label for="formFileSm" class="form-label">Foto de Perfil</label>
+              <input class="form-control form-control-sm" id="formFileSm" type="file">
+              </div>
+
+        <div class="mb-3">
+              <label for="formFileSm" class="form-label">Nombre y Apellido</label>
+              <input class="form-control form-control-sm" id="formFileSm" type="text">
+        </div>
+        </div>
+          <div class="col-1">
+            <button type="button" class="btn btn-primary">boton </button>
+            <button type="button" class="btn btn-primary">boton </button>
+            </div>
         </div>
     </div>
-
+  </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

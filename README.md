@@ -10,3 +10,4 @@ img no tiene etiqueta de cierre
   git commit -m "nombre"
   git push -u origin
   
+Tarea: Chequear ideas de porfolios. Imagenes para el fondo.
